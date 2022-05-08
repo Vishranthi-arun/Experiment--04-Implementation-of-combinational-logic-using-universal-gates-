@@ -32,8 +32,6 @@ Program to design a Implementation of combinational logic using universal gates-
 Developed by: Vishranthi A
 RegisterNumber:  212221230124
 */
-```
-```
 ## F=((C'.B.A)'(D'.C.A)'(C.B'.A)')' using NAND gate
 
 module Combination(A,B,C,D,F);
@@ -45,8 +43,6 @@ assign Q = D&(~C)&(~A);
 assign R = (~C)&B&(~A);
 assign F = (~P&~Q&~R);
 endmodule
-```
-```
 ## F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')' using NOR gate
 
 module norcombination(A,B,C,D,F);
@@ -80,7 +76,7 @@ endmodule
 ![nor](https://user-images.githubusercontent.com/93427278/167285291-d07dfaa9-519a-47bb-bde8-48e929f54b54.png)
 
 ## Timing diagram 
-![norwf](https://user-images.githubusercontent.com/93427278/167285307-2427c6d6-9727-412d-8f8d-f0da55440393.jpg)
+![timingnor](https://user-images.githubusercontent.com/93427278/167286295-307d26a9-e58b-459e-991b-538554105697.jpg)
 
 ## Result:
 Thus implementation of logic functions using NAND and NOR gates is done and its operation is verified in Quartus using Verilog programming.
