@@ -66,7 +66,7 @@ endmodule
 ![nand](https://user-images.githubusercontent.com/93427278/167285235-9c1f6a64-111f-4d03-aa94-7115c6f71863.png)
 
 ## Timing diagram 
-![nandwf](https://user-images.githubusercontent.com/93427278/167285252-70f4e8d7-6121-4fb9-a989-9a376de76463.jpg)
+![nandtim](https://user-images.githubusercontent.com/93427278/167286367-a34fd0ab-b6ec-459d-9ac6-596e9af5f1ac.jpg)
 
 ### F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')' using NOR gate
 ## Truthtable
